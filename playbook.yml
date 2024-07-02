@@ -25,3 +25,4 @@
     yum:
       name: httpd
       state: absent
+...
