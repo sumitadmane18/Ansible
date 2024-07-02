@@ -8,7 +8,7 @@
   - name: Upgrade all packages
     yum:
      name: '*'
-     state: latest
+     state: latestgit 
       
   - name: Install the latest version of Apache
     yum:
@@ -25,4 +25,3 @@
     yum:
       name: httpd
       state: absent
-...
